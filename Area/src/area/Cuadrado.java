@@ -4,6 +4,7 @@ public class Cuadrado extends Areas{
 
     @Override
     public double Area(){
-        this.area = this.x * this.y;
+        this.area = this.x * this.x;
+        return this.area;
     }
 }
