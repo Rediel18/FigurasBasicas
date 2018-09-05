@@ -24,8 +24,7 @@ public abstract class Areas {
     }
     public void setArea(double area){
         this.area = area;
-    }
-    
+    }    
     
     public Areas(){
         this.x = 0;
